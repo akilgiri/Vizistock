@@ -1,0 +1,42 @@
+# --- Secrets & credentials ---
+.env
+*.env
+*firebase-adminsdk*.json
+serviceAccountKey.json
+google-services.json
+
+# --- Model weights (download separately, see README) ---
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# --- Runtime output from the pipeline & experiments ---
+results/
+debug_frames/
+training_data/
+debug_*/
+*.log
+*.csv
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# --- Android / IDE ---
+.idea/
+.kotlin/
+*.iml
+.gradle/
+local.properties
+build/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Local reference material (not for the public repo) ---
+docs/report/

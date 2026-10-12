@@ -1,0 +1,134 @@
+{
+    "cam_1": {
+        "meta": {
+            "shelf_id": "cam_1",
+            "real_dimensions": {
+                "width": 32,
+                "depth": 17,
+                "unit": "in"
+            }
+        },
+        "calibration": {
+            "source_points": [
+                322.5696901089571,
+                1009.226462935282,
+                2789.770515819176,
+                974.3051320378675,
+                3149.716245349137,
+                2245.441576703759,
+                56.97866637811202,
+                2318.7763715883298
+            ],
+            "homography_matrix": [
+                0.4961771091563486,
+                0.10063013921297917,
+                -261.610299511295,
+                0.006774902565367302,
+                0.47864864063343765,
+                -485.25024210558814,
+                -5.68108782717641e-06,
+                0.00024274054478132088,
+                1.0
+            ],
+            "virtual_dim": [
+                1000,
+                400
+            ]
+        },
+        "planogram": {
+            "slot_1": {
+                "name": "Compliments Cookies: Chocolate Chip",
+                "valid_classes": [
+                    "box"
+                ],
+                "threshold": 1,
+                "x_start": 0.0,
+                "x_end": 0.5
+            },
+            "slot_2": {
+                "name": "Compliments Chips: All Dressed",
+                "valid_classes": [
+                    "bag"
+                ],
+                "threshold": 1,
+                "x_start": 0.5,
+                "x_end": 1.0
+            }
+        }
+    },
+    "cam_0": {
+        "meta": {
+            "shelf_id": "cam_0",
+            "real_dimensions": {
+                "width": 33.5,
+                "depth": 17,
+                "unit": "in"
+            }
+        },
+        "calibration": {
+            "source_points": [
+                277.1396465760494,
+                841.604074627692,
+                2873.6413654183903,
+                694.9344848585506,
+                3247.565569881554,
+                2116.232652383325,
+                39.50557271160905,
+                2280.3629076011734
+            ],
+            "homography_matrix": [
+                0.45760015096932194,
+                0.07558000278473286,
+                -190.4275825364988,
+                0.02280146521965229,
+                0.40365598124383867,
+                -346.03770470756103,
+                1.5195809850231422e-05,
+                0.00019197058511995812,
+                1.0
+            ],
+            "virtual_dim": [
+                1000,
+                400
+            ]
+        },
+        "planogram": {
+            "slot_1": {
+                "name": "Compliments Cookies: Chocolate Chip",
+                "valid_classes": [
+                    "box"
+                ],
+                "threshold": 2,
+                "x_start": 0.0,
+                "x_end": 0.26799499890849193
+            },
+            "slot_2": {
+                "name": "Compliments Granola: S'mores",
+                "valid_classes": [
+                    "box"
+                ],
+                "threshold": 3,
+                "x_start": 0.26799499890849193,
+                "x_end": 0.50677727281748
+            },
+            "slot_3": {
+                "name": "Compliments Sparkling Water: Peach",
+                "valid_classes": [
+                    "bottle"
+                ],
+                "threshold": 1,
+                "x_start": 0.50677727281748,
+                "x_end": 0.7303181249875965
+            },
+            "slot_4": {
+                "name": "Compliments Chips: All Dressed",
+                "valid_classes": [
+                    "bag"
+                ],
+                "threshold": 1,
+                "x_start": 0.7303181249875965,
+                "x_end": 1.0
+            }
+        }
+    }
+}

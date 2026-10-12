@@ -1,0 +1,8 @@
+{
+    "aliases": {
+        "bag": ["chip bag", "potato chip bag", "snack bag"],
+        "box": ["box"],
+        "bottle": ["bottle"],
+        "can": ["can"]
+    }
+}

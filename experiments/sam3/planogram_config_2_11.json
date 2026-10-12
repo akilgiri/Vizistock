@@ -1,0 +1,87 @@
+{
+    "cam_0": {
+        "meta": {
+            "shelf_id": "cam_0",
+            "real_dimensions": {
+                "width": 36,
+                "depth": 18,
+                "unit": "in"
+            }
+        },
+        "calibration": {
+            "source_points": [
+                [
+                    3265.827875757493,
+                    305.18678218090395
+                ],
+                [
+                    3254.418870077991,
+                    1731.2932409701748
+                ],
+                [
+                    77.01078833663958,
+                    1828.2684801678454
+                ],
+                [
+                    82.71529117639066,
+                    114.08851670314166
+                ]
+            ],
+            "homography_matrix": [
+                [
+                    0.26008995893174297,
+                    0.0008655361647784429,
+                    -21.612165126176357
+                ],
+                [
+                    -0.01390774457071241,
+                    0.231660501801569,
+                    -25.27941974144406
+                ],
+                [
+                    -5.2495093062533745e-05,
+                    -1.6351650051727401e-06,
+                    1
+                ]
+            ],
+            "virtual_dim": [
+                1000,
+                400
+            ]
+        },
+        "planogram": {
+            "slot_1": {
+                "name": "Compliments Cookies: Chocolate Chip",
+                "valid_classes": [
+                    "box"
+                ],
+                "x_start": 0,
+                "x_end": 0.2633999304401592
+            },
+            "slot_2": {
+                "name": "Compliments Sparkling Water: Peach",
+                "valid_classes": [
+                    "bottle"
+                ],
+                "x_start": 0.2633999304401592,
+                "x_end": 0.41674073501565095
+            },
+            "slot_3": {
+                "name": "Compliments Granola: S'mores",
+                "valid_classes": [
+                    "box"
+                ],
+                "x_start": 0.41674073501565095,
+                "x_end": 0.75
+            },
+            "slot_4": {
+                "name": "Compliments Chips: All Dressed",
+                "valid_classes": [
+                    "bag"
+                ],
+                "x_start": 0.75,
+                "x_end": 1
+            }
+        }
+    }
+}

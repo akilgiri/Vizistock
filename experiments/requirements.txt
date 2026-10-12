@@ -1,0 +1,11 @@
+requests
+python-dotenv
+opencv-python
+numpy
+scikit-image
+ultralytics
+torch
+torchvision
+firebase-admin
+google-genai
+google-generativeai

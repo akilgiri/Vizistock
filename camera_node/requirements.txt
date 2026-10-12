@@ -1,0 +1,8 @@
+# picamera2 is best installed via apt on Raspberry Pi OS: sudo apt install -y python3-picamera2
+opencv-python
+numpy
+requests
+python-dotenv
+firebase-admin
+scikit-image
+flask

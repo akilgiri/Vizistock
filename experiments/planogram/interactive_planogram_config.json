@@ -1,0 +1,82 @@
+{
+    "calibration": {
+        "source_points": [
+            [
+                155,
+                526
+            ],
+            [
+                3166,
+                589
+            ],
+            [
+                2965,
+                1685
+            ],
+            [
+                318,
+                1655
+            ]
+        ],
+        "destination_dim": [
+            1000,
+            478
+        ],
+        "real_dimensions": [
+            34.5,
+            16.5
+        ],
+        "units": "in",
+        "homography_matrix": [
+            [
+                0.306929076743486,
+                -0.0443130553668629,
+                -24.265339772270444
+            ],
+            [
+                -0.007373345879339801,
+                0.35239911813797037,
+                -184.21906752927472
+            ],
+            [
+                -5.917394072398378e-06,
+                -0.0001016872712737906,
+                1.0
+            ]
+        ]
+    },
+    "planogram": {
+        "slot_1": {
+            "name": "Gatorade Orange Sports Drink",
+            "valid_classes": [
+                "bottle"
+            ],
+            "x_start": 0.0,
+            "x_end": 0.211
+        },
+        "slot_2": {
+            "name": "Muir Glen Crushed Tomatoes with Basil",
+            "valid_classes": [
+                "can"
+            ],
+            "x_start": 0.211,
+            "x_end": 0.543
+        },
+        "slot_3": {
+            "name": "Antonio Amato Spaghetti",
+            "valid_classes": [
+                "spaghetti"
+            ],
+            "x_start": 0.543,
+            "x_end": 0.788
+        },
+        "slot_4": {
+            "name": "Monster Energy Drink Ultra Fiesta",
+            "valid_classes": [
+                "can"
+            ],
+            "x_start": 0.788,
+            "x_end": 1.0
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "cam_1": {
+        "meta": {
+            "shelf_id": "cam_1",
+            "real_dimensions": {
+                "width": 34.5,
+                "depth": 17,
+                "unit": "in"
+            }
+        },
+        "calibration": {
+            "source_points": [
+                290.9296448273051,
+                704.4965906418998,
+                2906.444196853175,
+                733.0187198176852,
+                3157.442321802223,
+                2179.0906690300058,
+                5.70450283975108,
+                2144.8641140190634
+            ],
+            "homography_matrix": [
+                0.42367686971463614,
+                0.08389755122437208,
+                -182.36570445582717,
+                -0.004044230851747992,
+                0.3708606130209077,
+                -260.09344758878683,
+                -1.7550970364161775e-06,
+                0.0001577408472983685,
+                1.0
+            ],
+            "virtual_dim": [
+                1000,
+                400
+            ]
+        },
+        "planogram": {
+            "slot_1": {
+                "name": "Compliments Cookies: Chocolate Chip",
+                "valid_classes": [
+                    "box"
+                ],
+                "x_start": 0,
+                "x_end": 0.26037428803905616,
+                "threshold": 1
+            },
+            "slot_2": {
+                "name": "Compliments Granola: S'mores",
+                "valid_classes": [
+                    "box"
+                ],
+                "x_start": 0.26037428803905616,
+                "x_end": 0.5055071543392408,
+                "threshold": 2
+            },
+            "slot_3": {
+                "name": "Compliments Sparkling Water: Peach",
+                "valid_classes": [
+                    "bottle"
+                ],
+                "x_start": 0.5055071543392408,
+                "x_end": 0.7239675325964,
+                "threshold": 2
+            },
+            "slot_4": {
+                "name": "Compliments Chips: All Dressed",
+                "valid_classes": [
+                    "bag"
+                ],
+                "x_start": 0.7239675325964,
+                "x_end": 1,
+                "threshold": 1
+            }
+        }
+    }
+}
